@@ -1,0 +1,12 @@
+[package]
+name = "datastruct4py"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "datastruct4py"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.2", features = ["extension-module"] }
+datastruct-rs = { version = "0.1.0" }
